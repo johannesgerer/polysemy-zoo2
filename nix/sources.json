@@ -1,0 +1,110 @@
+{
+    "all-cabal-hashes": {
+        "branch": "hackage",
+        "description": "A repository containing all cabal files, with added metadata for package hashes",
+        "homepage": null,
+        "owner": "commercialhaskell",
+        "repo": "all-cabal-hashes",
+        "rev": "0c48e77c8491d4440b94e61f596cca9125d9153f",
+        "sha256": "13nzlgs7k0kfr5x2if5rr9mvl34sybaifpx4jmpyq5mll32ivqdi",
+        "type": "tarball",
+        "url": "https://github.com/commercialhaskell/all-cabal-hashes/archive/0c48e77c8491d4440b94e61f596cca9125d9153f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "chronos": {
+        "branch": "master",
+        "description": "Haskell time library focusing on performance ",
+        "homepage": null,
+        "owner": "johannesgerer",
+        "repo": "chronos",
+        "rev": "9dc993b1a9b6b5867a9c10b81a72fdb306c6387c",
+        "sha256": "0bj8jvz41abybvbdj9yh24bz7fscrpxi567ajp8cml73l2yphylc",
+        "type": "tarball",
+        "url": "https://github.com/johannesgerer/chronos/archive/9dc993b1a9b6b5867a9c10b81a72fdb306c6387c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "date-combinators": {
+        "branch": "main",
+        "description": null,
+        "homepage": null,
+        "owner": "johannesgerer",
+        "repo": "date-combinators",
+        "rev": "1f8ae4e609ab81e073be85292f5c6feb0dd5e0ad",
+        "sha256": "1zhpj8463ndmjfglh4palxvgc5dcghjgk1lq0w5vrs6iqif0magx",
+        "type": "tarball",
+        "url": "https://github.com/johannesgerer/date-combinators/archive/1f8ae4e609ab81e073be85292f5c6feb0dd5e0ad.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "hoff": {
+        "branch": "main",
+        "description": "Haskell dataframes",
+        "homepage": null,
+        "owner": "johannesgerer",
+        "repo": "hoff",
+        "rev": "8a89e098bc88da1e64df69aee31ed85d1bb37ee5",
+        "sha256": "0fyrrgdfj4vm0swndqj8sdzr33j7p0zfrfywp5701i3rkqng1zma",
+        "type": "tarball",
+        "url": "https://github.com/johannesgerer/hoff/archive/8a89e098bc88da1e64df69aee31ed85d1bb37ee5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "interval": {
+        "branch": "main",
+        "description": "Haskell library for finite and infinite intervals of any ordered type",
+        "homepage": null,
+        "owner": "johannesgerer",
+        "repo": "interval",
+        "rev": "72d9fab84eb0a5b21efac53bc0bcf253a61fc47f",
+        "sha256": "1xi801f7x2hwx1pp7z2bk1j5fwls32b43pd8id965w6m9zlz75q8",
+        "type": "tarball",
+        "url": "https://github.com/johannesgerer/interval/archive/72d9fab84eb0a5b21efac53bc0bcf253a61fc47f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "mach-nix": {
+        "branch": "master",
+        "description": "Create highly reproducible python environments",
+        "homepage": "",
+        "owner": "DavHau",
+        "repo": "mach-nix",
+        "rev": "3.5.0",
+        "sha256": "185qf6d5xg8qk1hb1y0b5gggr71vdz8v9d5ga4zg7dmcb1aypxcg",
+        "type": "tarball",
+        "url": "https://github.com/DavHau/mach-nix/archive/3.5.0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "master",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "2b54954fdb4a25c6f9cf80cfd36c43e4c4577c0b",
+        "sha256": "1sn4az6xc2ag23pnxhh8dbgxnk757d5d63spnv93bnls9k3d9vrg",
+        "type": "tarball",
+        "url": "https://github.com/nixos/nixpkgs/archive/2b54954fdb4a25c6f9cf80cfd36c43e4c4577c0b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "odbc": {
+        "branch": "master",
+        "description": "Haskell ODBC binding with SQL Server support",
+        "homepage": "",
+        "owner": "johannesgerer",
+        "repo": "odbc",
+        "rev": "db3356347592eeb0385ee3c04ae46edf8efd0627",
+        "sha256": "18caq0m8v57xk7hmx6l32h43s2rfc5fchapgmjc9k6b9zrwzmdp8",
+        "type": "tarball",
+        "url": "https://github.com/johannesgerer/odbc/archive/db3356347592eeb0385ee3c04ae46edf8efd0627.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "yahp": {
+        "branch": "main",
+        "description": "yet another Haskell prelude",
+        "homepage": null,
+        "owner": "johannesgerer",
+        "repo": "yahp",
+        "rev": "c6be61f2552aceec029d8fcaf9d8d57cb19de250",
+        "sha256": "11mdcbwbafvkgnx9cv8gc7j6fkcm5xb42qwm6a18bskrg6347j1m",
+        "type": "tarball",
+        "url": "https://github.com/johannesgerer/yahp/archive/c6be61f2552aceec029d8fcaf9d8d57cb19de250.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
