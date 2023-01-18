@@ -1,0 +1,152 @@
+cabal-version:      2.4
+name:               polysemy-zoo2
+version:            0.1.0.0
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+license: Apache-2.0
+
+author: Johannes Gerer
+copyright: 2022-2023 Johannes Gerer
+
+library
+
+    exposed-modules:
+        Polysemy.Zoo.BlockCache
+        Polysemy.Zoo.FilesystemCache
+        Polysemy.Zoo.KeyValueCache
+        Polysemy.Zoo.Md5
+        Polysemy.Zoo.Memoize
+        Polysemy.Zoo.Prelude
+        Polysemy.Zoo.Python
+        Polysemy.Zoo.SqlServer
+        Polysemy.Zoo.Tests
+        Polysemy.Zoo.Tests.BlockCache
+        Polysemy.Zoo.Utils
+
+    build-depends:    Glob
+                    , aeson
+                    , attoparsec
+                    , base
+                    , base16-bytestring
+                    , bytestring
+                    , cache
+                    , cache-polysemy
+                    , cereal
+                    , cereal-text
+                    , cereal-vector
+                    , chronos
+                    , containers
+                    , cryptohash-md5
+                    , data-default
+                    , date-combinators
+                    , dhall
+                    , directory
+                    , entropy
+                    , filepath
+                    , filepattern
+                    , foreign-store
+                    , formatting
+                    , hinotify
+                    , hoff
+                    , hspec
+                    , interpolatedstring-perl6
+                    , interval
+                    , large-anon
+                    , lens
+                    , libyaml 
+                    , mtl
+                    , odbc
+                    , polysemy
+                    , polysemy-log
+                    , polysemy-plugin
+                    , polysemy-time
+                    , pretty-simple
+                    , process
+                    , resource-pool
+                    -- , retry
+                    , serialise
+                    , sop-core
+                    , sqlite-simple
+                    , temporary
+                    , text
+                    , text-show
+                    , time
+                    , torsor
+                    , tuple
+                    , unix
+                    , unordered-containers
+                    , utf8-string
+                    , vector
+                    , vector-algorithms
+                    , yahp
+                    , yaml
+                    , zip-archive
+
+    ghc-options:
+     -fplugin=Polysemy.Plugin
+     -Werror=partial-fields
+     -Werror=incomplete-record-updates
+     -Werror=incomplete-uni-patterns
+     -Werror=incomplete-patterns
+     -Werror=unused-top-binds -Werror=unused-local-binds -Werror=unused-pattern-binds
+     -Werror=unused-matches
+     -Werror=overflowed-literals
+     -Werror=overlapping-patterns
+     -Werror=missing-fields
+     -Werror=typed-holes
+     -Werror=empty-enumerations
+     -Werror=unrecognised-pragmas
+     -Werror=missing-methods
+     -Wall
+     -Wno-orphans
+     -Wno-missing-signatures
+     -Wno-unused-do-bind
+     -Wno-name-shadowing
+     -Wno-unticked-promoted-constructors
+     -Wcompat
+     -- -fplugin=Data.Record.Anon.Plugin
+      -j +RTS -A128m -n2m -RTS
+
+    default-extensions:
+      CPP
+      DataKinds
+      DefaultSignatures
+      DerivingVia
+      FunctionalDependencies
+      GADTs
+      LambdaCase
+      NoImplicitPrelude
+      NoMonomorphismRestriction
+      OverloadedLabels
+      OverloadedStrings
+      QuasiQuotes
+      RecordWildCards
+      TypeFamilies
+      RebindableSyntax
+                    
+    hs-source-dirs:   src
+    default-language: GHC2021
+
+
+test-suite test1
+  type: exitcode-stdio-1.0
+  main-is: Test.hs
+  ghc-options: -Wall -rtsopts -threaded
+    -j +RTS -A128m -n2m -RTS
+  hs-source-dirs:
+    test
+  build-depends:
+                      base
+                , polysemy-zoo2
+
+  default-language: GHC2021
+
+-- Local Variables:
+-- compile-command: "nix-shell --run 'cabal exec -- ghc-pkg list'"
+-- End:
